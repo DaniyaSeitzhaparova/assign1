@@ -15,6 +15,12 @@ public class Problem1 {
         System.out.println(MinimumElement(n, arr));
     }
 
+    /**
+     * Finds the minimum element in an array of integers.
+     * @param n The number of elements in the array.
+     * @param arr The array of integers.
+     * @return The minimum element in the array.
+     */
    public static int MinimumElement(int n, int[] arr) {
         int minElem = arr[0];
 
