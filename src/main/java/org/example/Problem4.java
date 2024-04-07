@@ -10,6 +10,11 @@ public class Problem4 {
         System.out.println(calculateFactorial(n));
     }
 
+    /**
+     * Calculates the factorial of a number recursively.
+     * @param n The number whose factorial to calculate.
+     * @return The factorial of the input number.
+     */
     public static int calculateFactorial(int n) {
         if (n == 1) {
             return 1;
