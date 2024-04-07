@@ -15,6 +15,12 @@ public class Problem2 {
         System.out.println(averageOfElems(n, arr));
     }
 
+    /**
+     * Calculates the average of elements in an array of integers.
+     * @param n The number of elements in the array.
+     * @param arr The array of integers.
+     * @return The average of elements in the array.
+     */
     public static double averageOfElems(int n, int[] arr) {
         double sum = 0;
 
