@@ -12,6 +12,12 @@ public class Problem9 {
         System.out.println(binomialCoefficient(k,n));
     }
 
+    /**
+     * finds Cnk(binomial coefficient)
+     * @param k number
+     * @param n number
+     * @return answer
+     */
     public static int binomialCoefficient(int k,int n){
         if (k==0||k==n){
             return 1;
