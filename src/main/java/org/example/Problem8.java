@@ -13,6 +13,12 @@ public class Problem8 {
         }
     }
 
+    /**
+     * checking whether “s” is all consists of digits
+     * @param s string
+     * @param n length of string
+     * @return returns answer
+     */
     public static boolean checkString(String s,int n){
         if(n==0){
             return Character.isDigit(s.charAt(0));
