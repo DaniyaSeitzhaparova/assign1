@@ -11,6 +11,12 @@ public class Problem6 {
         System.out.println(calculatePower(a, n));
     }
 
+    /**
+     * Calculates the value of a in the power of n.
+     * @param n The number to raise to a power of.
+     * @param a The base number.
+     * @return The value of a in the power of n.
+     */
     public static int calculatePower(int a, int n) {
         if (n == 0) {
            return 1;
