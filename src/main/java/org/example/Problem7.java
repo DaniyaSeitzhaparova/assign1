@@ -19,6 +19,12 @@ public class Problem7 {
         }
     }
 
+    /**
+     *  returns given array in reverse order without using array data structure.
+     * @param arr array
+     * @param first first element of array
+     * @param last last element of array
+     */
     public static void reverseArray(int[] arr, int first, int last) {
         if (first >= last) {
             return;
