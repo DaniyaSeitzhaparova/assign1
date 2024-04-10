@@ -1,0 +1,1 @@
+The project consists of tasks designed to expand the understanding of algorithms and, in particular, recursion. Problems such as: Fibbonacci sequence, smallest number in a series of numbers, calculating degrees, etc.
