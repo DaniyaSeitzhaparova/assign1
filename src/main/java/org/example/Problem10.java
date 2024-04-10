@@ -12,6 +12,12 @@ public class Problem10 {
         System.out.println(calculateGCD(a, b));
     }
 
+    /**
+     * Calculates the GCD of two numbers using the Euclidean Algorithm.
+     * @param a The first number
+     * @param b The second number
+     * @return The GCD of a and b
+     */
     public static int calculateGCD(int a, int b) {
         if (b == 0) {
             return a;
